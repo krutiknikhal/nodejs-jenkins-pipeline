@@ -7,7 +7,7 @@ describe("Node.js Jenkins Demo App", () => {
         const response = await request(app).get("/");
 
         expect(response.statusCode).toBe(200);
-        expect(response.text).toBe("Hello from Jenkins CI/CD Pipeline!");
+        expect(response.text).toBe("Hello from Jenkins Automated CI/CD Pipeline!");
     });
 
     test("GET /health should return application health", async () => {
