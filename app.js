@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hello from Jenkins CI/CD Pipeline!");
+    res.send("Hello from Jenkins Automated CI/CD Pipeline!");
 });
 
 app.get("/health", (req, res) => {
